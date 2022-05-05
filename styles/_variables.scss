@@ -1,0 +1,8 @@
+@mixin bgImage {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+$red: #e31d3b;
+$grey: #ababab;

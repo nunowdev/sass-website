@@ -1,0 +1,30 @@
+#service {
+  height: 110vh;
+  width: 100%;
+}
+
+.services_header {
+  height: 60%;
+
+  display: flex;
+}
+.service_info {
+  width: 20%;
+  height: 100%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services_list {
+  height: 40%;
+}
+
+.service_image {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-image: url("/images/serviceimage.jpg");
+  @include bgImage();
+}
